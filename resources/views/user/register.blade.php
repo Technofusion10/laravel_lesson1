@@ -15,7 +15,7 @@
             </p>
         </section>
         <section class="mt-10">
-            <form action="/store" method="post" class="flex flex-col">
+            <form action="/store1" method="post" class="flex flex-col">
                 @csrf
                 <div class="mb-6 pt-3 rounded bg-gray-200">
                     <label for="name" class="block text-gray-700 text-sm font-bold mb-2 ml-3">Name</label>

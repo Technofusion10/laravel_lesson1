@@ -29,3 +29,7 @@ Route::post('/login/process', [UserController::class, 'process']);
 Route::post('/logout', [UserController::class, 'logout']);
 
 Route::post('/store', [UserController::class, 'store']);
+
+
+Route::get('/add/student', [StudentController::class, 'create']);
+Route::post('/add/student', [StudentController::class, 'store']);

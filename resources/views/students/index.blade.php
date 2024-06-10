@@ -9,7 +9,7 @@
     </header>
     <section class="px-20">
         <div class="overflow-x-auto relative">
-            <table class="w-3/4 mx-auto text-sm text-gray-500 text-black">
+            <table class="w-fit mx-auto text-sm text-gray-500 text-black">
                 <thead class="text-xs text gray-700 uppercase bg-white">
                     <tr>
                         <th scope="col" class="py-3 px-6">
@@ -26,6 +26,9 @@
                         </th>
                         <th scope="col" class="py-3 px-6">
                             gender
+                        </th>
+                        <th scope="col" class="py-3 px-6">
+                            email
                         </th>
                     </tr>
                 </thead>
@@ -47,11 +50,16 @@
                         <td class="py-4 p-6">
                         {{$student->gender}}
                         </td>
+                        <td class="py-4 p-6">
+                        {{$student->email}}
+                        </td>
                     </tr>
                     @endforeach
-
                 </tbody>
             </table>
+            <div class="mx-auto max-w-lg pt-6 p-4>
+                {{$students->links()}}
+            </div>
         </div>
     </section>
 

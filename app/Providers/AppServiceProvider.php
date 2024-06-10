@@ -23,10 +23,10 @@ class AppServiceProvider extends ServiceProvider
     {
         View::share('LoginTitle','ADMIN LOGIN');
         View::share('RegisterTitle', 'ADMIN REGISTER');
-        View::share('TabTitle', 'STUDENT MANAGEMENT');
+        View::share('title', 'STUDENT MANAGEMENT');
 
-        View::composer('students.index', function($view){
-            $view->with('students', Students::get());
-        });
+        // View::composer('students.index', function($view){
+        //     $view->with('students', Students::get());
+        // });
     }
 }
