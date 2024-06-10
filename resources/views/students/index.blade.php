@@ -30,6 +30,9 @@
                         <th scope="col" class="py-3 px-6">
                             email
                         </th>
+                        <th scope="col" class="py-3 px-6">
+
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -52,6 +55,9 @@
                         </td>
                         <td class="py-4 p-6">
                         {{$student->email}}
+                        </td>
+                        <td class="py-4 p-6">
+                            <a href="/student/{{$student->id}}" class="bg-sky-600 text-white px-4 py-1 rounded">view</a>
                         </td>
                     </tr>
                     @endforeach
