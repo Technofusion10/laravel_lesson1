@@ -67,7 +67,7 @@
 
 @include('partials.footer')
 
-<!-- <div class="container">
+{{-- <div class="container">
         <div class="center-div">
         <h1 class="text-center font-bold text-white mb-5 mt-5">STUDENTS TABLE</h1>
         <a href="#" class="ADD">ADD STUDENT</a>
@@ -101,4 +101,4 @@
                 </tbody>
             </table>
         </div>
-    </div> -->
+    </div> --}}
